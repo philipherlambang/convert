@@ -5006,13 +5006,13 @@ section {
 }
 .client-slider-two .client-post-meta .name {
   padding-left: 15px;
-  color: #19232d;
+  color: #fff;
   font-weight: 700;
   font-size: 14px;
 }
 
 .dark .client-item::before {
-  background-color: #1F2E3C;
+  /* background-color: #1F2E3C; */
 }
 .dark .client-item .client-content p {
   color: #dfdfdf;
@@ -6431,8 +6431,8 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 }
 
 .dark .statistics-area {
-  background-color: #1F2E3C;
-  padding: 120px 40px;
+  background-color: transparent;
+  /* padding: 120px 40px; */
   border-radius: 5px;
   position: relative;
   z-index: 2;
