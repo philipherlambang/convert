@@ -1405,6 +1405,11 @@ input::-moz-focus-inner {
   .btn {
     font-size: 14px;
   }
+
+  .faq-thumb img{
+    height: 360px !important;
+    object-fit: cover;
+  }
 }
 
 .btn-rounded {
@@ -9548,4 +9553,9 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   .blog-right-content-area {
     display: none;
   }
+}
+
+.faq-thumb img{
+  height: 680px;
+  object-fit: cover;
 }
