@@ -4572,8 +4572,9 @@ section {
 }
 .team-content .sub-title {
   color: #19232d;
-  font-style: italic;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .team-social li a {
@@ -9558,4 +9559,10 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 .faq-thumb img{
   height: 680px;
   object-fit: cover;
+}
+
+.custom-service-image{
+  height: 276px;
+  object-fit: cover;
+  width: 100%;
 }
