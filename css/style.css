@@ -9566,3 +9566,11 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   object-fit: cover;
   width: 100%;
 }
+
+.overview-item p{
+  text-align: justify;
+}
+
+.text-justify{
+  text-align: justify;
+}
