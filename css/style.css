@@ -9574,3 +9574,13 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 .text-justify{
   text-align: justify;
 }
+
+.logo-pratama-jets-container img{
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.logo-wira-air-container img{
+  background-color: rgba(173, 6, 6, 0.5);
+  padding: 10px;
+}
