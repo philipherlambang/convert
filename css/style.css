@@ -1226,7 +1226,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 600;
 }
 @media only screen and (max-width: 991px) {
@@ -5176,7 +5176,7 @@ section {
 }
 @media only screen and (max-width: 575px) {
   .overview-thumb .overview-thumb-content {
-    bottom: 50%;
+    bottom: 25%;
     transform: translate(-50%, 50%);
   }
 }
@@ -9575,16 +9575,40 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   text-align: justify;
 }
 
-.logo-pratama-jets-container img{
+.logo-pratama-jets-container{
   background: rgba(0, 0, 0, 0.3);
   padding: 10px;
+  position: absolute;
+  bottom: calc(1rem + 150px);
+  width: 100%;
+  padding-left: 100px;
 }
 
-.logo-wira-air-container img{
+.logo-wira-air-container{
   background-color: rgba(173, 6, 6, 0.5);
   padding: 10px;
+  position: absolute;
+  bottom: calc(1rem + 150px);
+  width: 100%;
+  padding-left: 80px;
+}
+
+/* phone smaller */
+@media (max-width: 767px) {
+  .logo-pratama-jets-container{
+    padding-left: 40px;
+  }
+  
+  .logo-wira-air-container{
+    padding-left: 40px;
+  }
 }
 
 p{
   text-align: justify;
+}
+
+.dotted-list{
+  list-style: disc;
+  padding-left: 1em;
 }
