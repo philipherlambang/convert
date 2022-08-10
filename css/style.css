@@ -2904,7 +2904,7 @@ section {
 }
 @media only screen and (max-width: 991px) {
   .site-logo {
-    max-width: 100px;
+    max-width: 240px;
     margin-right: 20px;
   }
 }
@@ -4417,6 +4417,7 @@ section {
 @media only screen and (max-width: 991px) {
   .copyright-area p {
     margin-top: 15px;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 991px) {
